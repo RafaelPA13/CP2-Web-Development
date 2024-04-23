@@ -1,0 +1,21 @@
+/* Main */
+main {
+    margin: 5vmin 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* Fim Main */
+  
+  /*Página de contato*/
+  .contato {
+    width: 50%;
+    border: 2px solid var(--color-bege);
+    border-radius: 15px;
+    padding: 5vmin;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  /*Fim Página de contato*/

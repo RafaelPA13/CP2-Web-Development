@@ -7,6 +7,7 @@
     <title>Vinheria Agnello</title>
     <!-- Importe CSS -->
     <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/contato.css">
     <!-- Importe Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,14 +34,14 @@
     </header>
 
     <main>
-        <form class="contato" id="form-contato">
-            <h3 id="mensagem"></h3>
-            <input type="text" placeholder="Nome:">
-            <input type="tel" placeholder="Telefone:">
-            <input type="email" placeholder="Email:">
-            <textarea cols="30" rows="10" placeholder="Mensagem:"></textarea>
+        <div class="contato" id="form-contato">
+            <input type="text" placeholder="Nome:" id="nome">
+            <input type="tel" placeholder="Telefone:" id="tel">
+            <input type="email" placeholder="Email:" id="email">
+            <textarea cols="30" rows="10" placeholder="Mensagem:" id="txt" minlength="3" maxlength="300"></textarea>
             <button class="btn" onclick="enviar()">Enviar</button>
-        </form>
+            <h3 id="mensagem"></h3>
+        </div>
     </main>
     <footer>
         <div class="footer-content">
