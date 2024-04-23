@@ -1,6 +1,6 @@
 /* Define as variáveis de cores e fonte */
 :root {
-  --font-primary: 'Inria Serif', sans-serif;
+  --font-primary: "Inria Serif", sans-serif;
   --font-primary-color: #fafdea;
   --color-primary: #360b41;
   --color-bg: #fafdea;
@@ -83,8 +83,6 @@ footer {
   color: var(--font-primary-color);
   text-align: center;
   padding: 1em 0;
-  position: absolute;
-  bottom: 0px;
 }
 
 .footer-content {
@@ -94,11 +92,9 @@ footer {
   padding: 2em;
   text-align: start;
 
-
-  img {
+  & img {
     height: 100px;
   }
-
 }
 
 footer a {
@@ -107,45 +103,25 @@ footer a {
   font-weight: bold;
 }
 
-/* Main */
-main{
-  margin: 5vmin 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+/* Inputs */
+input,
+textarea {
+  resize: none;
+  padding: 15px;
+  border: 2px solid var(--color-roxo);
+  border-radius: 5px;
+  outline: none;
+  background-color: var(--color-bege);
+  font-family: var(--font-primary);
 }
-/* Fim Main */
 
-/*Página de contato*/
-.contato {
-  width: 50%;
-  border: 2px solid var(--color-bege);
-  border-radius: 15px;
-  padding: 5vmin;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-
-  & input,
-  textarea {
-    resize: none;
-    padding: 15px;
-    border: 2px solid var(--color-roxo);
-    border-radius: 5px;
-    outline: none;
-    background-color: var(--color-bege);
-    font-family: var(--font-primary);
-  }
-
-  & input::placeholder,
-  textarea::placeholder {
-    color: var(--color-roxo);
-    font-family: var(--font-primary);
-    font-weight: bold;
-  }
+input::placeholder,
+textarea::placeholder {
+  color: var(--color-roxo);
+  font-family: var(--font-primary);
+  font-weight: bold;
 }
-/*Fim Página de contato*/
+/* Fim Inputs */
 
 /* Botão */
 .btn {
