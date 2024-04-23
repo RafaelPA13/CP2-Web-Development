@@ -1,59 +1,66 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vinheria Agnello</title>
+    <!-- Importe CSS -->
     <link rel="stylesheet" href="../css/styles.css" />
-  </head>
-  <body>
+    <!-- Importe Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
     <header>
-      <div class="logo-container">
-        <a href="home.html">
-          <img src="../img/logo.png" alt="Logo da Vinheria Agnello" />
-        </a>
-      </div>
-      <nav>
-        <ul class="no-decoration-list">
-          <li>
-            <a href="home.html">Home</a>
-          </li>
-          <li><a href="login.html">Login</a></li>
-          <li><a href="carrinho.html">Carrinho</a></li>
-          <li><a href="contato.html">Contato</a></li>
-        </ul>
-      </nav>
+        <div class="logo-container">
+            <a href="home.html">
+                <img src="../img/logo.png" alt="Logo da Vinheria Agnello" />
+            </a>
+        </div>
+        <nav>
+            <ul class="no-decoration-list">
+                <li>
+                    <a href="home.html">Home</a>
+                </li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
     </header>
     <div class="container">
-      <form class="contato">
-        <input type="text">
-        <input type="tel">
-        <input type="email">
-        <textarea cols="30" rows="10"></textarea>
-        <button class="btn">Enviar</button>
-      </form>
+        <form class="contato">
+            <input type="text" placeholder="Nome:">
+            <input type="tel" placeholder="Telefone:">
+            <input type="email" placeholder="Email:">
+            <textarea cols="30" rows="10" placeholder="Mensagem:"></textarea>
+            <button class="btn">Enviar</button>
+        </form>
     </div>
     <footer>
-      <div class="footer-content">
-        <div class="menu">
-          <ul class="no-decoration-list">
-            <li><h3>Links</h3></li>
-            <li>
-              <a
-                href="https://github.com/RafaelPA13/CP2-Web-Development"
-                target="_blank"
-                >Código Fonte</a
-              >
-            </li>
-          </ul>
+        <div class="footer-content">
+            <div class="menu">
+                <ul class="no-decoration-list">
+                    <li>
+                        <h3>Links</h3>
+                    </li>
+                    <li>
+                        <a href="https://github.com/RafaelPA13/CP2-Web-Development" target="_blank">Código Fonte</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="logo-footer">
+                <img src="../img/logo.png" alt="Logo da Vinheria Agnello" />
+            </div>
         </div>
-        <div class="logo-footer">
-          <img src="../img/logo.png" alt="Logo da Vinheria Agnello" />
-        </div>
-      </div>
 
-      <p>Vinheria Agnello © 2024</p>
+        <p>Vinheria Agnello © 2024</p>
     </footer>
+    <!-- Importe JS -->
     <script src="../js/contato.js"></script>
-  </body>
+</body>
+
 </html>

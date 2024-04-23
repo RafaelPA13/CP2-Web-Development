@@ -1,9 +1,11 @@
 /* Define as variáveis de cores e fonte */
 :root {
-  --font-primary: Arial, sans-serif;
+  --font-primary: 'Inria Serif', sans-serif;
   --font-primary-color: #fafdea;
   --color-primary: #360b41;
   --color-bg: #fafdea;
+  --color-bege: #ccc9aa;
+  --color-roxo: #4f2c4d;
 }
 
 /* Reset básico */
@@ -63,8 +65,11 @@ nav ul li a {
 }
 
 .container {
+  width: 100%;
   display: flex;
   flex-grow: 1;
+  justify-content: center;
+  margin: 5vmin;
 }
 .content {
   flex: 1; /* Faz o conteúdo expandir */
@@ -102,5 +107,40 @@ footer a {
 }
 
 /*Página de contato*/
+.contato{
+  width: 50%;
+  border: 2px solid var(--color-bege);
+  border-radius: 15px;
+  padding: 5vmin;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  
+  & input, textarea{
+    resize: none;
+    padding: 15px;
+    border: 2px solid var(--color-roxo);
+    border-radius: 5px;
+    outline: none;
+    background-color: var(--color-bege);
+    font-family: var(--font-primary);
+  }
 
+  & input::placeholder, textarea::placeholder{
+    color: var(--color-roxo);
+    font-family: var(--font-primary);
+    font-weight: bold;
+  }
+
+  & .btn{
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--color-primary);
+    font-family: var(--font-primary);
+    font-weight: bold;
+    color: var(--font-primary-color);
+  }
+
+}
 /*Fim Página de contato*/
