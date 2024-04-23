@@ -31,15 +31,17 @@
             </ul>
         </nav>
     </header>
-    <div class="container">
-        <form class="contato">
+
+    <main>
+        <form class="contato" id="form-contato">
+            <h3 id="mensagem"></h3>
             <input type="text" placeholder="Nome:">
             <input type="tel" placeholder="Telefone:">
             <input type="email" placeholder="Email:">
             <textarea cols="30" rows="10" placeholder="Mensagem:"></textarea>
-            <button class="btn">Enviar</button>
+            <button class="btn" onclick="enviar()">Enviar</button>
         </form>
-    </div>
+    </main>
     <footer>
         <div class="footer-content">
             <div class="menu">
