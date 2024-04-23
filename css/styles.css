@@ -22,11 +22,14 @@ html {
 
 body {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   font-family: var(--font-primary);
 }
 
 header {
+  width: 100%;
   background-color: var(--color-primary);
   color: var(--font-primary-color);
   text-align: center;
@@ -71,6 +74,7 @@ nav ul li a {
 }
 
 footer {
+  width: 100%;
   background-color: var(--color-primary);
   color: var(--font-primary-color);
   text-align: center;
@@ -96,3 +100,7 @@ footer a {
   text-decoration: none;
   font-weight: bold;
 }
+
+/*Página de contato*/
+
+/*Fim Página de contato*/
