@@ -1,0 +1,98 @@
+/* Define as variáveis de cores e fonte */
+:root {
+  --font-primary: Arial, sans-serif;
+  --font-primary-color: #fafdea;
+  --color-primary: #360b41;
+  --color-bg: #fafdea;
+}
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-primary);
+}
+
+header {
+  background-color: var(--color-primary);
+  color: var(--font-primary-color);
+  text-align: center;
+  padding: 1em 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-container img {
+  height: 60px;
+  margin-left: 2em;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: var(--font-primary-color);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: large;
+}
+
+.no-decoration-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-grow: 1;
+}
+.content {
+  flex: 1; /* Faz o conteúdo expandir */
+  padding: 1em;
+  background-color: var(--color-bg);
+  min-height: 300px;
+}
+
+footer {
+  background-color: var(--color-primary);
+  color: var(--font-primary-color);
+  text-align: center;
+  padding: 1em 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+  text-align: start;
+  
+
+  img {
+    height: 100px;
+  }
+
+}
+
+footer a {
+  color: var(--font-primary-color);
+  text-decoration: none;
+  font-weight: bold;
+}
