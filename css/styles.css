@@ -2,6 +2,7 @@
 :root {
   --font-primary: 'Inria Serif', sans-serif;
   --font-primary-color: #fafdea;
+  --font-second-color: #000000;
   --color-primary: #360b41;
   --color-bg: #fafdea;
   --color-bege: #ccc9aa;
@@ -25,6 +26,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
+  background-color: var(--color-bg);
   font-family: var(--font-primary);
 }
 
@@ -159,3 +161,29 @@ main{
   color: var(--font-primary-color);
 }
 /* Fim Botão */
+
+/* Página do carrinho */
+
+.carrinho-container{
+  width: 90%;
+  color: var(--font-second-color);
+  
+  & .titles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  & h1{
+    font-weight: 500;
+    padding: 1em auto;
+  }
+
+  & .line{
+    border: 1px solid var(--color-bege);
+    width: 80%;
+    margin: 1em auto;
+  }
+}
+
+/* Fim do carrinho*/
