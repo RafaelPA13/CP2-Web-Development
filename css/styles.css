@@ -184,6 +184,17 @@ main{
     width: 80%;
     margin: 1em auto;
   }
+
+  & .wines{
+    display: flex;
+    flex-direction: column;
+  }
+
+  & p{
+    background-color: #ccc9aa;
+    font-size: 2em;
+    padding: 1em auto;
+  }
 }
 
 /* Fim do carrinho*/
