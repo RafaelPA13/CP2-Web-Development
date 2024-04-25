@@ -46,16 +46,21 @@
                 <p id="prices-list"></p>
                 <div class="qtd-list">
                     <input id="qtd" type="number">
-                    <p id="qtd-total">aaaaa</p>
+                    <p id="qtd-total"></p>
                 </div>
             </div>
 
-            <h2 id="total">00.00</h2>
+            <h2 id="total">Total: </h2>
 
             <div class="line"></div>
 
-            <input id="cupom" type="text" placeholder="Cupom de desconto">  
-            <button id="finalizar" function="finalizar()">Finalizar compra</button>
+            <div class="cupom-container">
+                <input id="cupom" type="text" placeholder="Cupom de desconto">  
+            </div>
+
+            <div class="checkout-container">
+                <button id="btn-checkout" function="finalizar()">Finalizar compra</button>
+            </div>
         <div/>
     </main>
     
