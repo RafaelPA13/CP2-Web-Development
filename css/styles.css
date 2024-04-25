@@ -176,24 +176,74 @@ main{
 
   & h1{
     font-weight: 500;
-    padding: 1em auto;
   }
 
   & .line{
     border: 1px solid var(--color-bege);
-    width: 80%;
     margin: 1em auto;
   }
 
-  & .wines{
+  & .list{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 7%;
   }
 
-  & p{
-    background-color: #ccc9aa;
-    font-size: 2em;
-    padding: 1em auto;
+  & #wines-list{
+    flex-direction: column;
+    font-size: 1.5em;
+  }
+
+  & #prices-list{
+    flex-direction: column;
+    font-size: 1.5em;
+  }
+
+  & .qtd-list{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  & #qtd{
+    height: 5vmin;
+    width: 4vmax;
+    background-color: var(--color-bege);
+    border: none;
+    border-radius: 2px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    transition: scale .5s;
+    font-size: 1.5em;
+    font-family: var(--font-primary);
+    color: var(--font-second-color);
+    text-align: center;
+  }
+  
+  & #qtd:hover{
+    scale: 1.1;
+  }
+
+  & #qtd-total{
+    height: 5vmin;
+    width: 7vmax;
+    background-color: var(--color-roxo);
+    border: 0px;
+    border-radius: 2px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: var(--font-primary-color);
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+
+  & #total{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 2em;
   }
 }
 
