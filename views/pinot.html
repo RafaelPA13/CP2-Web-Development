@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vinheria Agnello</title>
+    <!-- Importe CSS -->
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/detalhes.css">
+
+    <!-- Importe Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <a href="home.html">
+                <img src="../img/logo.png" alt="Logo da Vinheria Agnello" />
+            </a>
+        </div>
+        <nav>
+            <ul class="no-decoration-list">
+                <li>
+                    <a href="home.html">Home</a>
+                </li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <img src="../img/pinot.png" alt="Pinot">
+        <div class="conteudo">
+            <div class="info">
+                <h1>Pinot Noir italiano</h1>
+                <h2>Descrição:</h2>
+                <p>O Pinot Noir é uma uva tinta de origem francesa, mas também cultivada na Itália, e é conhecida por produzir vinhos delicados e complexos.</p>
+                <h1>R$99.99</h1>
+            </div>
+            <div class="harmonizacao">
+                <h1>Harmonizações</h1>
+                <ul>
+                    <li>Queijos</li>
+                    <li>Peixes</li>
+                    <li>Aves</li>
+                    <li>Carnes</li>
+                    <li>Massas</li>
+                </ul>
+                <button class="btn" onclick="aviso()">Comprar</button>
+            </div>
+        </div>
+
+        <div class="esconder" id="popup">
+            <h1>Enviado ao carrinho com sucesso!</h1>
+            <button class="btn" onclick="esconder()">OK</button>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="menu">
+                <ul class="no-decoration-list">
+                    <li>
+                        <h3>Links</h3>
+                    </li>
+                    <li>
+                        <a href="https://github.com/RafaelPA13/CP2-Web-Development" target="_blank">Código Fonte</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="logo-footer">
+                <img src="../img/logo.png" alt="Logo da Vinheria Agnello" />
+            </div>
+        </div>
+
+        <p>Vinheria Agnello © 2024</p>
+    </footer>
+
+    <!-- Importe JS -->
+    <script src="../js/detalhes.js"></script>
+</body>
+
+</html>
