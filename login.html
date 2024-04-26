@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vinheria Agnello</title>
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="./login.css">
 </head>
 <body>
     <div class="Login-container">
-        <h2>Login</h2>
-        <form action="#" method="POST">
+        <div class="logo"></div> <!-- Adiciona a logo dentro da caixa branca -->
+        <form action="#" method="POST" id="loginForm">
             <div class="form-group">
-                <label
-for="username">Username: </label>
-                <input type="text"
-id="username" name="username" required>
+                <label for="username">E-MAIL:</label>
+                <input type="text" id="username" name="username" required>
+                <span class="error-message" id="username-error"></span> <!-- Mensagem de erro -->
             </div>
             <div class="form-group">
-                <label
-for="password">Password:</label>
-                <input type="password"
-id="password" name="password" required> 
+                <label for="password">SENHA:</label>
+                <input type="password" id="password" name="password" required> 
+                <span class="error-message" id="password-error"></span> <!-- Mensagem de erro -->
             </div>
-            <button type="submit">Login</button>    
+            <button type="button" onclick="showLoginForm()">ENTRAR</button> <!-- Alterado para type="button" e adicionado evento onclick -->
         </form>
     </div>
+
+    <!-- Movendo o script JavaScript para o final do corpo do HTML -->
+    <script src="login.js"></script>
 </body>
 </html>

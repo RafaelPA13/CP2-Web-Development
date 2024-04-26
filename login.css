@@ -1,0 +1,77 @@
+:root {
+    --font-primary: "Inria Serif", sans-serif;
+    --font-primary-color: #fafdea;
+    --color-bg: #fafdea;
+    --color-bege: #ccc9aa;
+    --color-roxo: #4f2c4d;
+} 
+
+body {
+    font-family: var(--font-primary);
+    background: linear-gradient(45deg, #ccc9aa, #4f2c4d, #7d677e);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    position: relative; /* Permitindo posicionamento absoluto dos elementos filhos */
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: var(--font-primary-color); /* Cor da fonte */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 20px); /* Largura ajustada para 100% - 20px para margens */
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-family: var(--font-primary);
+    box-sizing: border-box;
+    background-color: var(--color-bege); /* Cor de fundo */
+}
+
+button {
+    background-color: #360b41;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: var(--font-primary);
+    text-align: center;
+}
+
+button:hover {
+    background-color: #7d677e;
+}
+
+.Login-container {
+    background-color: var(--color-bg);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #7d677e;
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.logo {
+    background-image: url('./img/logo2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -120px; /* Posiciona a logo 120px acima da parte superior da caixa branca */
+    left: calc(50% - 50px); /* Centraliza horizontalmente */
+}
