@@ -1,5 +1,5 @@
-/* Main */
-main {
+  /* Main */
+  main {
     margin: 5vmin 0;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@ main {
     align-items: center;
   }
   /* Fim Main */
-  
+
   /*Página de contato*/
   .contato {
     width: 50%;
