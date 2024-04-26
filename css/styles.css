@@ -82,14 +82,14 @@ footer {
   background-color: var(--color-primary);
   color: var(--font-primary-color);
   text-align: center;
-  padding: 1em 0;
+  padding: 1em ;
 }
 
 .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2em;
+  padding: 1em;
   text-align: start;
 
   & img {
@@ -135,3 +135,48 @@ textarea::placeholder {
   color: var(--font-primary-color);
 }
 /* Fim Botão */
+/********************* wines ********************/
+.wines {
+  min-height: 100vh;
+  margin: 40px auto;
+  width: 80%;
+}
+.wines h2 {
+  margin: 30px 0 50px;
+  text-align: center;
+  color: var(--color-primary);
+}
+.wines-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;    
+}
+.wines-item  {
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  padding: 20px;
+  box-shadow: 1px 1px 30px #ccc;
+  transition: scale .7s;
+  border-radius: 7px;
+}
+
+.wines-item:hover {
+  scale: 1.1;
+}
+
+.wines-item img {
+  width: 50%;
+  flex: 1 0 25%;
+  margin: 5px;   
+  height: auto; 
+}
+
+/********************* fim wines ********************/
