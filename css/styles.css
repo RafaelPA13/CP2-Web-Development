@@ -73,7 +73,7 @@ nav ul li a {
   flex: 1;
   /* Faz o conteúdo expandir */
   padding: 1em;
-  background-color: var(--color-bg);
+  background-color: var(--color-bege);
   min-height: 300px;
 }
 
@@ -82,14 +82,14 @@ footer {
   background-color: var(--color-primary);
   color: var(--font-primary-color);
   text-align: center;
-  padding: 1em 0;
+  padding: 1em ;
 }
 
 .footer-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2em;
+  padding: 1em;
   text-align: start;
 
   & img {
@@ -133,5 +133,6 @@ textarea::placeholder {
   font-family: var(--font-primary);
   font-weight: bold;
   color: var(--font-primary-color);
+  text-decoration: none;
 }
 /* Fim Botão */

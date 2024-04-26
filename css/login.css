@@ -1,0 +1,76 @@
+:root {
+    --font-primary: "Inria Serif", sans-serif;
+    --font-primary-color: #fafdea;
+    --color-bg: #fafdea;
+    --color-bege: #ccc9aa;
+    --color-roxo: #4f2c4d;
+} 
+
+body {
+    font-family: "Inria Serif", serif;
+    background: linear-gradient(45deg, #ccc9aa, #4f2c4d, #7d677e);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Login-container {
+    background-color: var(--color-bg);
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #7d677e;
+    max-width: 400px;
+    width: 80%;
+    height: auto;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    background-image: url('./img/logo2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 290px;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    margin-bottom: 20px; /* Adiciona espaço abaixo da logo */
+}
+
+.form-group {
+    width: calc(100% - 2px); /* Largura ajustada para 100% - 20px para margens */
+    padding: 13px;
+    border-radius: 10px;
+    border-color: #7d677e;
+    font-family: var(--font-primary);
+    box-sizing: border-box;
+    background-color: var(--color-bege); /* Cor de fundo */
+    margin-top: -40px; /* Espaço entre o texto e a borda superior */
+    color: var(--color-roxo); /* Cor do texto */
+    margin-bottom: 65px; /* Adiciona espaço abaixo dos inputs */
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    background-color: transparent; /* Define o fundo como transparente */
+    border: none; /* Remove a borda */
+    outline: none; /* Remove o contorno ao receber foco */
+    font-family: inherit; /* Usa a família de fontes do elemento pai */
+    color: inherit; /* Usa a cor do texto do elemento pai */
+}
+
+button {
+    background-color: #360b41;
+    color: #fff;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: var(--font-primary);
+    text-align: center;
+    display: block; /* Transforma o botão em um bloco */
+    margin: 5px auto; /* Centraliza horizontalmente */
+}
