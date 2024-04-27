@@ -2,6 +2,7 @@
 :root {
   --font-primary: "Inria Serif", sans-serif;
   --font-primary-color: #fafdea;
+  --font-second-color: #000000;
   --color-primary: #360b41;
   --color-bg: #fafdea;
   --color-bege: #ccc9aa;
@@ -25,6 +26,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
+  background-color: var(--color-bg);
   font-family: var(--font-primary);
 }
 

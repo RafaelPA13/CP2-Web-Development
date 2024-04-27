@@ -1,0 +1,134 @@
+/* Página do carrinho */
+
+.carrinho-container{
+    width: 90%;
+    color: var(--font-second-color);
+    
+    & .titles{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  
+    & h1{
+      font-weight: 500;
+    }
+  
+    & .line{
+      border: 1px solid var(--color-bege);
+      margin: 1em auto;
+    }
+  
+    & .list{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      gap: 7%;
+    }
+  
+    & #wines-list{
+      flex-direction: column;
+      font-size: 1.5em;
+    }
+  
+    & #prices-list{
+      flex-direction: column;
+      font-size: 1.5em;
+    }
+  
+    & .qtd-list{
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+    }
+  
+    & #qtd{
+      height: 5vmin;
+      width: 4vmax;
+      background-color: var(--color-bege);
+      border: none;
+      border-radius: 2px;
+      flex-direction: column;
+      flex-wrap: wrap;
+      transition: scale .5s;
+      font-size: 1.5em;
+      font-family: var(--font-primary);
+      color: var(--font-second-color);
+      text-align: center;
+    }
+    
+    & #qtd:hover{
+      scale: 1.1;
+    }
+  
+    & #qtd-total{
+      height: 5vmin;
+      width: 7vmax;
+      background-color: var(--color-roxo);
+      border: none;
+      border-radius: 2px;
+      flex-direction: column;
+      flex-wrap: wrap;
+      color: var(--font-primary-color);
+      text-align: center;
+      font-size: 1.5em;
+    }
+  
+  
+    & #total{
+      display: flex;
+      align-items: center;
+      justify-content: right;
+      padding: 2em 3em 1em 0;
+      font-size: 2em;
+    }
+  
+    & .cupom-container{
+      display: flex;
+      justify-content: center;
+    }
+  
+    & #cupom{
+      width: 86.2vmax;
+      height: 7vmin;
+      font-family: var(--font-primary);
+      color: var(--font-second-color);
+      font-size: 2em;
+      border: none;
+      border-radius: 2px;
+      background-color: var(--color-bege);
+      padding: .7em;
+      font-weight: bold;
+      transition: scale .5s;
+    }
+  
+    & #cupom:hover{
+      scale: 1.02;
+    }
+  
+    & .checkout-container{
+      display: flex;
+      justify-content: right;
+      padding: 1.5em ;
+    }
+  
+    & #btn-checkout{
+      width: 23vmax;
+      height: 7vmin;
+      text-align: center;
+      color: var(--font-primary-color);
+      font-family: var(--font-primary);
+      font-size: 2em;
+      background-color: var(--color-primary);
+      border: none;
+      border-radius: 3px;
+      transition: scale .5s;
+    }
+  
+    & #btn-checkout:hover{
+      background-color: var(--color-roxo);
+      scale: 1.1;
+    }
+  }
+  
+  /* Fim do carrinho*/
