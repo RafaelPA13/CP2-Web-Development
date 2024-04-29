@@ -1,13 +1,13 @@
 # CP2-Web-Development
 
-<h1>Vinheiria Agnello</h1>
+<h2>Vinheiria Agnello</h2>
 <img src="![Print](/img/print-vinheiria.png)">
 
 ## Projeto
-<h2>Projeto de desenvolvimento de uma página web para uma vinícola, vinheiria Agnello.</h2>
+<p>Projeto de desenvolvimento de uma página web para uma vinícola, vinheiria Agnello.</p>
 
 ## Tecnologias
-<h2>HTML, CSS, JavaScript</h2>
+<p>HTML, CSS, JavaScript</p>
 
 ## Integrantes
-<h2>Jenniffer Moraes, Maria Eduarda, Matheus Diniz, Pedro Schmitz e Rafael Porto</h2>
+<p>Jenniffer Moraes, Maria Eduarda, Matheus Diniz, Pedro Schmitz e Rafael Porto</p>
