@@ -5,6 +5,9 @@ let qtd = document.querySelector('#qtd');
 let totalVinho = document.querySelector('#total');
 let total = 0;
 let desconto = 0;
+qtd.value = 1;
+
+recalcular();
 
 function obterTotal() {
   return qtd.value * precoPorGarrafa;
