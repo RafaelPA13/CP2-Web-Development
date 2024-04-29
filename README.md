@@ -1,10 +1,16 @@
-# CP2-Web-Development
+# Case-Vinheiria-Agnello
 
-## Projeto
-<p>Projeto de desenvolvimento de uma página web para uma vinícola, vinheiria Agnello.</p>
+Site desenvolvido para o 2º Checkpoint da disciplina de WebDev da FIAP. O site é uma loja fictícia chamada Vinheiria Agnello, onde o usuário poderá fazer compra de vinhos.
 
-## Tecnologias
-<p>HTML, CSS, JavaScript</p>
+# Tecnologias Utilizadas
+- HTML
+- CSS
+- JavaScript
 
-## Integrantes
-<p>Jenniffer Moraes, Maria Eduarda, Matheus Diniz, Pedro Schmitz e Rafael Porto</p>
+
+# Membros da Equipe
+- [Matheus Diniz](https://github.com/mtsdnz)
+- [Rafael Porto](https://github.com/RafaelPA13)
+- [Pedro Schmitz](https://github.com/schmitz014)
+- [Jeniffer De Moraes](https://github.com/jenismoraes)
+- [Maria Eduarda](https://github.com/madu2905)
