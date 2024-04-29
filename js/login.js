@@ -19,7 +19,7 @@ function showLoginForm() {
 
     if (password === '1234') {
         // Redireciona o usuário para outra página quando o login for bem-sucedido
-        window.location.href = "base.html";
+        window.location.href = "home.html";
     } else {
         // Adiciona mensagem de erro geral
         var generalErrorMessage = document.createElement('p');
