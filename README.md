@@ -1,8 +1,5 @@
 # CP2-Web-Development
 
-<p font-style="bold">Vinheiria Agnello</p>
-<img src="![Print](/img/print-vinheiria.png)">
-
 ## Projeto
 <p>Projeto de desenvolvimento de uma página web para uma vinícola, vinheiria Agnello.</p>
 
