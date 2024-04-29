@@ -1,34 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vinheria Agnello</title>
     <!-- Importe CSS -->
-    <link rel="stylesheet" href="../css/login.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../css/login.css" />
+  </head>
+  <body>
     <div class="Login-container">
-        <div class="logo">
-            <img src="../img/logo2.png" alt="logo">
-        </div> 
-        <form action="#" method="POST" id="loginForm">
-            
-            <button type="button" onclick="showLoginForm()">Sou menor de idade</button>
-            <button type="button" id="redirecionar">sou maior de idade</button>
-            <p class="general-error-message" id="general-error"></p> <!-- Mensagem de erro geral -->
-            
-
-        </form>
+      <div class="logo">
+        <img src="../img/logo2.png" alt="logo" />
+      </div>
+      <button type="button" onclick="sairDoSite()">
+        Tenho menos de 18 anos
+      </button>
+      <button type="button" id="redirecionar" onclick="irParaLogin()">Sou maior de idade</button>
     </div>
-  
-    <script>
-        // Adicionando a função para redirecionar ao clicar no botão
-        document.getElementById("redirecionar").addEventListener("click", function() {
-            window.location.href = "./login.html";
-        });
-    </script>
-    
-    </script>
-</body>
+    <script src="../js/maioridade.js"></script>
+  </body>
 </html>
