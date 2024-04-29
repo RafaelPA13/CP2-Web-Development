@@ -1,6 +1,6 @@
 # CP2-Web-Development
 
-<h2>Vinheiria Agnello</h2>
+<p font-style="bold">Vinheiria Agnello</p>
 <img src="![Print](/img/print-vinheiria.png)">
 
 ## Projeto
